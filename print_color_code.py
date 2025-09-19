@@ -1,6 +1,6 @@
 from color_code import MAJOR_COLORS, MINOR_COLORS, get_color_from_pair_number
 
-def get_color_coding_manual():
+def print_color_coding_manual():
   manual_lines = []
   total_pairs = len(MAJOR_COLORS) * len(MINOR_COLORS)
   manual_lines.append("Pair No. | Major Color | Minor Color")
