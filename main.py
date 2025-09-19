@@ -1,5 +1,5 @@
 from color_code_test import test_number_to_pair, test_pair_to_number
-from get_color_code_manual import get_color_coding_manual
+from print_color_code import print_color_coding_manual
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
   test_number_to_pair(5, 'White', 'Slate')
@@ -7,5 +7,5 @@ if __name__ == '__main__':
   test_pair_to_number('Violet', 'Slate', 25)
   test_pair_to_number('Red', 'Orange', 7)
   print('Done :)')
-  manual = get_color_coding_manual()
-  print(manual)
+
+print_color_coding_manual()
